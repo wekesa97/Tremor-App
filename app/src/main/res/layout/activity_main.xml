@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#336600"
+            android:textSize="27sp"
+            android:text="A MOBILE BASED TREMOR DETECTION AND ALERT SYSTEM"
+            />
+
+
+        <Button
+            android:id="@+id/idBtnActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VIEW DATA"
+            android:onClick="btnClickAct1"/>
+        <Button
+            android:id="@+id/idBtnActivity2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VIEW SENSORS"
+            android:onClick="btnClickAct2"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Phone No. with Country code e.g +254"
+            android:ems="10"
+            android:id="@+id/idName"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:text="Save To File"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:id="@+id/idBtnSave" />
+            <Button
+                android:text="Read File"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:id="@+id/idBtnRead" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:id="@+id/idReadtxt"/>
+
+    </LinearLayout>
+</RelativeLayout>
