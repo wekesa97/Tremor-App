@@ -23,6 +23,20 @@ It contains a method OnUpgrade that is called by database object and integers re
 It contains a method insertData  that is called by a string to insert the event data to the database..the method uses a database object to open the database and uses an object contentValues to put the string contents to the table.
 An if condition is then checked whether the data was inserted successfully or it failed then the database is closed.
 A function getAllData that returns a cursor data type is used to read the data that is stored in the database. An object of the database is used to open the database and run an SQL statement to select all values from the table in the database.
+![Screenshot_20200922-181724](https://user-images.githubusercontent.com/30049042/109650481-53f33980-7b6e-11eb-8788-5602e7b41331.png)
+![Screenshot_20200922-181735](https://user-images.githubusercontent.com/30049042/109650482-55bcfd00-7b6e-11eb-9aca-09f29cc5f3af.png)
+![Screenshot_20200922-181823](https://user-images.githubusercontent.com/30049042/109650485-56559380-7b6e-11eb-88a7-771219f0ec97.png)
+![Screenshot_20200922-181832](https://user-images.githubusercontent.com/30049042/109650488-5786c080-7b6e-11eb-9998-77aca50d728b.png)
+![Screenshot_20200922-181849](https://user-images.githubusercontent.com/30049042/109650493-59e91a80-7b6e-11eb-8a4d-25a0bc5afab7.png)
+![Screenshot_20200922-181905](https://user-images.githubusercontent.com/30049042/109650495-5a81b100-7b6e-11eb-8b50-a3df72fee47f.png)
+![Screenshot_20200922-181909](https://user-images.githubusercontent.com/30049042/109650500-5bb2de00-7b6e-11eb-9162-7b466fc2a87d.png)
+![Screenshot_20200922-182000](https://user-images.githubusercontent.com/30049042/109650506-5c4b7480-7b6e-11eb-9012-c28516c3c460.png)
+![Screenshot_20200922-182005](https://user-images.githubusercontent.com/30049042/109650509-5d7ca180-7b6e-11eb-8e82-54071e26e79e.png)
+![Screenshot_20200922-182036](https://user-images.githubusercontent.com/30049042/109650513-5eadce80-7b6e-11eb-824d-4bea6f9b6737.png)
+![Screenshot_20200922-182138](https://user-images.githubusercontent.com/30049042/109650517-5f466500-7b6e-11eb-8f08-d9362121ae56.png)
+![Screenshot_20200922-182202](https://user-images.githubusercontent.com/30049042/109650520-60779200-7b6e-11eb-8f79-a1a81f897fbc.png)
+![Screenshot_20200922-192054](https://user-images.githubusercontent.com/30049042/109650521-61102880-7b6e-11eb-8f77-3f57b8309184.png)
+![wp_ss_20200922_0001](https://user-images.githubusercontent.com/30049042/109650524-62415580-7b6e-11eb-9d94-b3ffb9c0b0e3.png)
 
 
 Shared Preference Database
